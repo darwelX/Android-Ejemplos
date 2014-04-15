@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Creatividad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="roboto">Fuentes de Roboto</string>
+    <string name="roboto2">Fuentes de RobotoCondensed</string>
+    <string name="iconos">Botones de Iconos</string>
+
+</resources>

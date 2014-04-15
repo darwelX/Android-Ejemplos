@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">claseinteraccion</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nombre">Darwel</string>
+    <string name="enviar">Enviar</string>
+    <string name="mensaje">Nueva Actividad</string>
+</resources>

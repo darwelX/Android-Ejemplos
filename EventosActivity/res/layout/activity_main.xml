@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+    <Button 
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton1"/>
+    
+     <Button 
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton2"/>
+     
+     <Button 
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton3"/>
+     
+     <Button
+        android:id="@+id/boton4" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton4"/>
+
+     <Button 
+        android:id="@+id/boton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton5"/>
+     
+     <Button 
+        android:id="@+id/boton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton6"/>
+
+     <Button 
+        android:id="@+id/boton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton7"/>
+          
+</LinearLayout>

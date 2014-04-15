@@ -1,0 +1,5 @@
+<resources>
+   <string name="saludo">Hellow Wordl</string>
+   <string name="appname">Idiomas</string>
+   <string name="app_name">Seleccion de Idiomas</string>
+</resources>

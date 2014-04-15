@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity" 
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+	<TextView 
+	    android:id="@+id/textoC1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+	
+	<TextView 
+	    android:id="@+id/textoC2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+	
+	<TextView 
+	    android:id="@+id/textoC3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+	
+	<TextView 
+	    android:id="@+id/textoC4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+	
+	<TextView 
+	    android:id="@+id/textoC5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+	
+	<TextView 
+	    android:id="@+id/textoC6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/hello_world"
+	    android:textColor="#FFFFFF"
+	    android:textSize="25sp"/>
+</LinearLayout>
