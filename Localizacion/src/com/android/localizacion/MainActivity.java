@@ -23,23 +23,27 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+        //extrae el identificador unico asociado al dispositivo
 		String id = Secure.getString(getBaseContext().getContentResolver(), Secure.ANDROID_ID);	
-		//String nombre = Secure.getString(getBaseContext().getContentResolver(), Secure.USE_GOOGLE_MAIL);
 		
-		/*Pattern emailPattern = Patterns.EMAIL_ADDRESS; // API level 8+
+		//extrae la cuenta principal gmail asociada al telefono
+		String nombre = Secure.getString(getBaseContext().getContentResolver(), Secure.USE_GOOGLE_MAIL);
+		
+		Pattern emailPattern = Patterns.EMAIL_ADDRESS; // API level 8+
 		Account[] accounts = AccountManager.get(getBaseContext()).getAccounts();
+		String possibleEmail="";
 		for (Account account : accounts) {
 		   
-		        String possibleEmail = account.name;
+		        possibleEmail = account.name;
 		        System.out.println(possibleEmail);
 
-		}*/
+		}
 		
         text = (TextView)findViewById(R.id.text);
         text2 = (TextView)findViewById(R.id.text2);
         
         text.setText(id);
-        //text2.setText(nombre);
+        text2.setText(possibleEmail);
         
 	}
 
