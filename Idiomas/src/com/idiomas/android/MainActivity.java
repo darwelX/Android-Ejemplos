@@ -5,10 +5,12 @@ import java.util.Locale;
 import com.android.idiomas.*;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -18,7 +20,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	TextView text;
 	ImageButton botones;
 	ImageButton botonin;
-	
+	Button boton;
 	
 	public void onCreate(Bundle actividades){
 		super.onCreate(actividades);
@@ -27,6 +29,8 @@ public class MainActivity extends Activity implements OnClickListener{
 		botones.setOnClickListener(this);
 		botonin = (ImageButton) findViewById(R.id.btnen);
 		botonin.setOnClickListener(this);
+		boton = (Button) findViewById(R.id.btn);
+		boton.setOnClickListener(this);
 		
 	}
 	
@@ -41,7 +45,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	
 	private void updateTexts() {
 		TextView txt_hello =(TextView)findViewById(R.id.texto);
-		txt_hello.setText(R.string.saludo);		
+		txt_hello.setText(R.string.saludo);	
 	}
 
 	@Override
@@ -56,6 +60,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.btnen:
 			changeLang("en");
 			break;
+			
+		case R.id.btn:
+			Intent intent = new Intent("android.intent.action.SEGUNDOACTIVITY");
+			startActivity(intent);
+			break;
+			
 		default:
 			break;
 		}
