@@ -20,17 +20,20 @@ public final class R {
         public static final int us=0x7f020002;
     }
     public static final class id {
+        public static final int btn=0x7f070003;
         public static final int btnen=0x7f070002;
         public static final int btnes=0x7f070001;
         public static final int texto=0x7f070000;
     }
     public static final class layout {
         public static final int main_activity=0x7f030000;
+        public static final int segundo_activity=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int appname=0x7f050002;
+        public static final int appname=0x7f050003;
         public static final int saludo=0x7f050001;
+        public static final int saludo2=0x7f050002;
     }
     public static final class style {
         /** 
